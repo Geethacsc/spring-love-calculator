@@ -11,6 +11,7 @@
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
+		
 	</properties>
 	<dependencies>
 		<dependency>
@@ -70,7 +71,19 @@
 			<artifactId>hibernate-validator</artifactId>
 			<version>9.0.0.Beta3</version><!--without this dependency bean validation will not occur-->
 		</dependency>
-		<!--Bean Validation Api-->
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>5.2.2.RELEASE</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>love-calculator</finalName>
