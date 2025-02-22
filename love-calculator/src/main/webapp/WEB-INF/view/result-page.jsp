@@ -10,7 +10,7 @@
 <body>
 	<h2 align="center">Love Calculator</h2>
 	<p>The Love calculator predicts:</p>
-	<p>${userInfo.userName} and	${userInfo.crushName} are : Friend</p>
+	<p>${userInfo.userName} and	${userInfo.crushName} are : ${relation}</p>
 	<br />
 	<br />
 	<a href="send-email">Send result to email</a>

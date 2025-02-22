@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>Hi ${userInfo.userName}!</h3>
+	<h3>Hi ${mysession.name} ${userInfo.userName}!</h3>
 	<h3>send result to you email</h3>
 	<form action="process-email" >
 		<table>

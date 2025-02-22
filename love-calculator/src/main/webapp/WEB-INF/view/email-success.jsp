@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hi ${userInfo.userName}</h2>
+<h2>Hi ${userName}</h2>
 <h3>result is sent successfully to ${email}</h3>
 </body>
 </html>
