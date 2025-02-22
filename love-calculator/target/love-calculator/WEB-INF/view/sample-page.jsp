@@ -10,7 +10,7 @@
 
 	<h1 align="center">LOVE CALCULATOR</h1>
 	<hr/>
-	<form action="process-sample" metod="get">
+	<form action="process-sample" method="get">
 		<div align="center">
 			<p>
 				<label for="un">User Name : </label> <input type="text" id="un"
